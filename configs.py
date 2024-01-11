@@ -14,7 +14,9 @@ class Config:
     CHID = int(getenv("CHID", "-1001623633000"))
     SUDO = list(map(int, getenv("SUDO", "6168162777").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
-    
+    CLONE_DB_URI = getenv("CLONE_DB_URI", "")
+    CDB_NAME = getenv("CDB_NAME", "clonevjbotz")
+
 cfg = Config()
 
 # Don't Remove Credit @VJ_Botz
